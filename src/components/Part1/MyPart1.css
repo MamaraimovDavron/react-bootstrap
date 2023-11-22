@@ -1,0 +1,114 @@
+.container-fluid .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container-fluid .row .col-10 {
+  width: 90%;
+  height: 70vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.container-fluid .row .col-10 .img {
+  border: 1px solid green;
+}
+.container-fluid .row .colAbove {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+  width: 75%;
+}
+.container-fluid .row .colAbove .left-side {
+  width: 40%;
+  height: 100%;
+}
+.container-fluid .row .colAbove .left-side .lifestyle a {
+  width: 100px;
+  text-decoration: none;
+  background-color: #d6293e;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 600;
+  color: white;
+}
+.container-fluid .row .colAbove .left-side h1 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 10px;
+}
+.container-fluid .row .colAbove .left-side p {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.container-fluid .row .colAbove .left-side .block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container-fluid .row .colAbove .left-side .block img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.container-fluid .row .colAbove .left-side .block ul {
+  display: flex;
+  gap: 25px;
+}
+.container-fluid .row .colAbove .left-side .block ul li {
+  list-style-type: disc;
+  position: relative;
+  color: white;
+}
+.container-fluid .row .colAbove .left-side .block ul li:after {
+  position: absolute;
+  left: -2.5em;
+  width: 2em;
+  text-align: right;
+  color: white;
+}
+.container-fluid .row .colAbove .left-side .block ul li a {
+  text-decoration: none;
+  color: white;
+}
+.container-fluid .row .colAbove .right-side {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.container-fluid .row .colAbove .right-side .imgText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.container-fluid .row .colAbove .right-side .imgText img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.container-fluid .row .colAbove .right-side .imgText p {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 17px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.container-fluid .row .colAbove .right-side .imgText p:hover {
+  opacity: 1;
+  cursor: pointer;
+}/*# sourceMappingURL=MyPart1.css.map */

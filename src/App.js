@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useState } from "react";
+// import { Button, Navbar } from "react-bootstrap";
+import MyNavbar from "./components/Navbar/MyNavbar";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import ThemeContext from "./components/context/context";
+import MyPart1 from "./components/Part1/MyPart1";
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState("dark");
+
+  // const theme = useContext(ThemeContext);
+
+  const darkBtn = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
+  console.log(theme);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeContext.Provider value={theme}>
+      <div className={`App ${theme === "light" ? "dark" : "light"}`}>
+        <div className="container-fluid">
+          <MyNavbar darkBtn={darkBtn} />
+          <MyPart1 />
+        </div>
+        {/* <button onClick={darkBtn}>Change</button> */}
+      </div>
+    </ThemeContext.Provider>
   );
-}
+};
 
 export default App;

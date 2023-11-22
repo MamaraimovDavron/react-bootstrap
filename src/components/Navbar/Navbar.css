@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .col-4 {
+  color: white;
+}
+.container .col-8 .bg-body-tertiary {
+  background-color: white !important;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav:hover {
+  color: #2e6ce9;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav .NavDropdown .Item {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav .NavDropdown .Item:hover {
+  color: #2e6ce9;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav .NavDropdown #iconItem {
+  display: flex;
+  border: 1px solid red !important;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav .NavDropdown #iconItem a {
+  border: 1px solid;
+  color: red !important;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav .NavDropdown #iconItem a i {
+  color: red !important;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll #Form {
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll #Form #moon {
+  border-radius: 50%;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll #Form #moon i {
+  color: white;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll #Form #dots {
+  font-size: 20px;
+  background-color: white !important;
+  color: #2e6ce9;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll #Form #subscribe {
+  border: 1px solid;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.container .col-8 .bg-body-tertiary #containerFluid #navbarScroll #Form #search {
+  font-size: 25px;
+  background-color: white !important;
+}/*# sourceMappingURL=Navbar.css.map */

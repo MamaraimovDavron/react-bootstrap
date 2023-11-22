@@ -1,0 +1,138 @@
+.container-fluid {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .col-10 {
+      width: 90%;
+      //   border: 1px solid red;
+      height: 70vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      .img {
+        // border-radius: 50%;
+        // width: 100%;
+        border: 1px solid green;
+        // border-radius: 20px;
+        // background-image: url("https://blogzine.webestica.com/assets/images/blog/16by9/big/02.jpg");
+      }
+    }
+
+    .colAbove {
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      //   border: 1px solid white;
+      height: 50%;
+      width: 75%;
+
+      .left-side {
+        width: 40%;
+        height: 100%;
+        // border: 1px solid red;
+        .lifestyle {
+          a {
+            width: 100px;
+            text-decoration: none;
+            background-color: #d6293e;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            font-weight: 600;
+            color: white;
+          }
+        }
+
+        h1 {
+          color: white;
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+          margin-top: 10px;
+        }
+        p {
+          color: white;
+          font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        }
+
+        .block {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          //   border: 1px solid red;
+          img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+          }
+          ul {
+            display: flex;
+            gap: 25px;
+            li {
+              list-style-type: disc;
+              //   counter-increment: initial;
+              position: relative;
+              color: white;
+              &:after {
+                // content: counter(list) ".";
+                position: absolute;
+                left: -2.5em;
+                width: 2em;
+                text-align: right;
+                color: white;
+              }
+              a {
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      .right-side {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        // border: 1px solid red;
+        .imgText {
+          //   border: 1px solid;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+          img {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+          }
+          p {
+            color: white;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+              "Lucida Sans", Arial, sans-serif;
+            font-size: 17px;
+            opacity: 0.7;
+            transition: 0.3s;
+            &:hover {
+              opacity: 1;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
