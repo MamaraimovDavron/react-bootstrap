@@ -7,6 +7,7 @@ import MyNavbar from "./components/Navbar/MyNavbar";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import ThemeContext from "./components/context/context";
 import MyPart1 from "./components/Part1/MyPart1";
+import MyPart2 from "./components/Part2/MyPart2";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -24,6 +25,7 @@ const App = () => {
         <div className="container-fluid">
           <MyNavbar darkBtn={darkBtn} />
           <MyPart1 />
+          <MyPart2 />
         </div>
         {/* <button onClick={darkBtn}>Change</button> */}
       </div>

@@ -1,0 +1,92 @@
+.myPart2 {
+  // border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  .top {
+    h2 {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    .imgBox {
+      // border: 1px solid red;
+      width: 23%;
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      position: relative;
+      .mainImg {
+        border-radius: 20px;
+        width: 100%;
+      }
+
+      p {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        font-weight: 900;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+        font-size: 20px;
+      }
+
+      .btn {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 40%;
+        height: 25px;
+        font-size: 13px;
+        font-weight: 600;
+        position: absolute;
+        top: 180px;
+        left: 20px;
+      }
+      .author-date {
+        // border: 1px solid;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+        ul {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          li {
+            color: #9d9fa6;
+            a {
+              text-decoration: none;
+              color: #9d9fa6;
+              font-family: "Trebuchet MS", "Lucida Sans Unicode",
+                "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+              font-size: 15px;
+              transition: all 0.5s ease-in-out;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

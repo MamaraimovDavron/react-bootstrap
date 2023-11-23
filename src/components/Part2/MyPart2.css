@@ -1,0 +1,79 @@
+.myPart2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+.myPart2 .top h2 {
+  display: flex;
+  gap: 10px;
+}
+.myPart2 .bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.myPart2 .bottom .imgBox {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  position: relative;
+}
+.myPart2 .bottom .imgBox .mainImg {
+  border-radius: 20px;
+  width: 100%;
+}
+.myPart2 .bottom .imgBox p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-size: 20px;
+}
+.myPart2 .bottom .imgBox .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 40%;
+  height: 25px;
+  font-size: 13px;
+  font-weight: 600;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+}
+.myPart2 .bottom .imgBox .author-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.myPart2 .bottom .imgBox .author-date img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.myPart2 .bottom .imgBox .author-date ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.myPart2 .bottom .imgBox .author-date ul li {
+  color: #9d9fa6;
+}
+.myPart2 .bottom .imgBox .author-date ul li a {
+  text-decoration: none;
+  color: #9d9fa6;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.myPart2 .bottom .imgBox .author-date ul li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=MyPart2.css.map */
