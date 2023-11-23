@@ -1,1 +1,159 @@
-/*# sourceMappingURL=MyPart4.css.map */
+.MyPart4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.MyPart4 .top {
+  width: 100%;
+}
+.MyPart4 .top h2 {
+  display: flex;
+  gap: 10px;
+}
+.MyPart4 .top p {
+  color: gray;
+}
+.MyPart4 .bottom {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.MyPart4 .bottom .left {
+  width: 55%;
+  height: 100%;
+  border-radius: 15px;
+  position: relative;
+}
+.MyPart4 .bottom .left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.MyPart4 .bottom .left img:hover {
+  transform: scale(1.01);
+}
+.MyPart4 .bottom .left .toTheTop {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+}
+.MyPart4 .bottom .left .toTheTop .btns {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.MyPart4 .bottom .left .toTheTop .btns .button {
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 1px 15px;
+}
+.MyPart4 .bottom .left .toTheTop h1 {
+  color: white;
+  width: 600px;
+  font-weight: 400;
+  transition: linear 0.5s ease-in;
+}
+.MyPart4 .bottom .left .toTheTop h1:hover {
+  text-decoration: underline;
+}
+.MyPart4 .bottom .left .toTheTop .imgText {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.MyPart4 .bottom .left .toTheTop .imgText img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.MyPart4 .bottom .left .toTheTop .imgText ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.MyPart4 .bottom .left .toTheTop .imgText ul li {
+  color: white;
+}
+.MyPart4 .bottom .left .toTheTop .imgText ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.MyPart4 .bottom .right {
+  height: 100%;
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.MyPart4 .bottom .right .box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.MyPart4 .bottom .right .box .imgBox {
+  border-radius: 12px;
+  width: 32%;
+}
+.MyPart4 .bottom .right .box .imgBox img {
+  border-radius: 12px;
+  width: 90%;
+}
+.MyPart4 .bottom .right .box .textBox {
+  width: 63%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.MyPart4 .bottom .right .box .textBox .btn {
+  padding: 0;
+  width: 28%;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+.MyPart4 .bottom .right .box .textBox h3 {
+  font-size: 18px;
+}
+.MyPart4 .bottom .right .box .textBox .avatarText {
+  display: flex;
+  flex-direction: row;
+}
+.MyPart4 .bottom .right .box .textBox .avatarText img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.MyPart4 .bottom .right .box .textBox .avatarText ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.MyPart4 .bottom .right .box .textBox .avatarText ul li {
+  color: gray;
+}
+.MyPart4 .bottom .right .box .textBox .avatarText ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  font-weight: 600;
+}/*# sourceMappingURL=MyPart4.css.map */
