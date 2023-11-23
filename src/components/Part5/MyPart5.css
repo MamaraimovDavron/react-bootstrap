@@ -1,0 +1,46 @@
+.MyPart5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f7f8f9;
+}
+.MyPart5 .textTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.MyPart5 .textTitle h2 {
+  font-size: 30px;
+}
+.MyPart5 .textTitle a {
+  color: gray;
+}
+.MyPart5 .figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.MyPart5 .figure .block {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.MyPart5 .figure .block .figureImg {
+  border-radius: 15px;
+  width: 100%;
+}
+.MyPart5 .figure .block h3 {
+  position: absolute;
+  color: white;
+  top: 155px;
+  left: calc(50% - 40px);
+  font-size: 20px;
+}/*# sourceMappingURL=MyPart5.css.map */

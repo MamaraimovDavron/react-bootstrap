@@ -1,0 +1,57 @@
+.MyPart5 {
+  //   border: 1px solid;
+  //   height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f7f8f9;
+  .textTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // gap: 20px;
+    // border: 1px solid;
+    h2 {
+      font-size: 30px;
+    }
+    a {
+      color: gray;
+    }
+  }
+
+  .figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    // border: 1px solid;
+    justify-content: space-between;
+    padding-top: 30px;
+    .block {
+      width: 16%;
+      //   border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      //   gap: 120px;
+      position: relative;
+
+      .figureImg {
+        border-radius: 15px;
+        width: 100%;
+        //   border: 1px solid red;
+      }
+      h3 {
+        position: absolute;
+        color: white;
+        top: 155px;
+        left: calc(50% - 40px);
+        font-size: 20px;
+        //   border: 1px solid red;
+      }
+    }
+  }
+}

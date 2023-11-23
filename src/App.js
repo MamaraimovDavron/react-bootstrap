@@ -10,6 +10,7 @@ import MyPart1 from "./components/Part1/MyPart1";
 import MyPart2 from "./components/Part2/MyPart2";
 import MyPart3 from "./components/Part3/MyPart3";
 import MyPart4 from "./components/Part4/MyPart4";
+import MyPart5 from "./components/Part5/MyPart5";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -30,6 +31,7 @@ const App = () => {
           <MyPart2 />
           <MyPart3 />
           <MyPart4 />
+          <MyPart5 />
         </div>
         {/* <button onClick={darkBtn}>Change</button> */}
       </div>
