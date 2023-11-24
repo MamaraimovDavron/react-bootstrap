@@ -1,0 +1,106 @@
+.MyPart6 {
+  padding: 0;
+  width: 100%;
+  margin-top: 50px;
+
+  .containerComponent {
+    // border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 !important;
+    .rowTop {
+      width: 100%;
+      .topCol {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 !important;
+        // border: 1px solid red;
+        p {
+          color: gray;
+        }
+      }
+    }
+
+    .rowBottom {
+      width: 100%;
+      display: flex;
+      //   border: 1px solid red;
+      height: 55vh;
+      flex-direction: row;
+      .left {
+        // border: 1px solid red;
+        width: 50%;
+        height: 100%;
+        border-radius: 15px;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+          transition: all 0.3s;
+          &:hover {
+            transform: scale(1.01);
+          }
+        }
+
+        .toTheTop {
+          position: absolute;
+          // border: 1px solid;
+          top: 280px;
+          left: 50px;
+          .btns {
+            display: flex;
+            gap: 10px;
+            padding-bottom: 10px;
+            .button {
+              display: flex;
+              gap: 5px;
+              font-size: 13px;
+              font-weight: 600;
+              padding: 1px 15px;
+            }
+          }
+          h1 {
+            color: white;
+            width: 600px;
+            font-weight: 400;
+            transition: linear 0.5s ease-in;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .imgText {
+            padding-top: 10px;
+            display: flex;
+            align-items: center;
+            img {
+              width: 45px;
+              height: 45px;
+              border-radius: 50%;
+            }
+
+            ul {
+              display: flex;
+              flex-direction: row;
+              gap: 30px;
+              align-items: center;
+              justify-content: center;
+              li {
+                color: white;
+                a {
+                  text-decoration: none;
+                  color: white;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
