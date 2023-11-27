@@ -1,0 +1,103 @@
+.Footer {
+  margin-top: 50px;
+}
+.Footer .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.Footer .row .part-one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Footer .row .part-one img {
+  width: 50%;
+}
+.Footer .row .part-one p {
+  text-align: start;
+  color: #94969e;
+  font-size: 14px;
+}
+.Footer .row .part-one span {
+  font-size: 15px;
+  font-weight: 600;
+  color: gray;
+}
+.Footer .row .part-two {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Footer .row .part-two h3 {
+  font-size: 23px;
+}
+.Footer .row .part-two .box {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.Footer .row .part-two .box ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 5px;
+}
+.Footer .row .part-two .box ul li {
+  list-style-type: none;
+}
+.Footer .row .part-two .box ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  transition: 0.5s;
+}
+.Footer .row .part-two .box ul li a:hover {
+  text-decoration: underline;
+}
+.Footer .row .part-two .box ul li a #btnDanger {
+  padding: 0 5px;
+  font-size: 14px;
+}
+.Footer .row .part-three {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Footer .row .part-three h3 {
+  font-size: 22px;
+}
+.Footer .row .part-three .btns {
+  padding: 0;
+}
+.Footer .row .part-three .btns .btn {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 4px;
+  border-radius: 5px;
+}
+.Footer .row .part-four {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Footer .row .part-four h3 {
+  font-size: 23px;
+}
+.Footer .row .part-four ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.Footer .row .part-four ul li {
+  list-style-type: none;
+}
+.Footer .row .part-four ul li a {
+  text-decoration: none;
+  color: #666a75;
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=Footer.css.map */

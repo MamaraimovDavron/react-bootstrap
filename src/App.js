@@ -13,6 +13,8 @@ import MyPart4 from "./components/Part4/MyPart4";
 import MyPart5 from "./components/Part5/MyPart5";
 import MyPart6 from "./components/Part6/MyPart6";
 import MyPart7 from "./components/Part7/MyPart7";
+import MyPart8 from "./components/Part8/MyPart8";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -36,6 +38,9 @@ const App = () => {
           <MyPart5 />
           <MyPart6 />
           <MyPart7 />
+          <MyPart8 />
+          <hr className="container" />
+          <Footer />
         </div>
         {/* <button onClick={darkBtn}>Change</button> */}
       </div>

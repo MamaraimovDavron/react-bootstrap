@@ -1,0 +1,124 @@
+.Footer {
+  //   border: 1px solid;
+  margin-top: 50px;
+  .row {
+    display: flex;
+    flex-direction: row;
+    // border: 1px solid red;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+
+    .part-one {
+      //   border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      img {
+        width: 50%;
+      }
+      p {
+        text-align: start;
+        color: #94969e;
+        font-size: 14px;
+      }
+
+      span {
+        font-size: 15px;
+        font-weight: 600;
+        color: gray;
+      }
+    }
+
+    .part-two {
+      //   border: 1px solid;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      h3 {
+        font-size: 23px;
+      }
+      .box {
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        gap: 70px;
+        ul {
+          display: flex;
+          flex-direction: column;
+          padding: 0;
+          gap: 5px;
+          //   border: 1px solid;
+          li {
+            list-style-type: none;
+            a {
+              text-decoration: none;
+              color: gray;
+              font-weight: 500;
+              font-family: "Trebuchet MS", "Lucida Sans Unicode",
+                "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+              transition: 0.5s;
+              &:hover {
+                text-decoration: underline;
+              }
+              #btnDanger {
+                padding: 0 5px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .part-three {
+      //   border: 1px solid red;
+      //   padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      h3 {
+        font-size: 22px;
+      }
+      .btns {
+        padding: 0;
+        // border: 1px solid;
+        .btn {
+          font-size: 14px;
+          font-weight: 600;
+          margin: 4px;
+          border-radius: 5px;
+        }
+      }
+    }
+
+    .part-four {
+      //   border: 1px solid green;
+      display: flex;
+      flex-direction: column;
+      //   padding: 0;
+
+      gap: 15px;
+      h3 {
+        font-size: 23px;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        li {
+          list-style-type: none;
+          a {
+            text-decoration: none;
+            color: #666a75;
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+    }
+  }
+}
