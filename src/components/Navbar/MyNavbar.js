@@ -13,9 +13,7 @@ const MyNavbar = ({ darkBtn, ...props }) => {
 
   return (
     <div
-      className={`container shadow d-flex p-4 ${
-        theme === "light" ? "dark" : "light"
-      }`}
+      className={`container d-flex p-4 ${theme === "light" ? "dark" : "light"}`}
     >
       <div className="col-4">
         <img

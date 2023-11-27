@@ -1,0 +1,39 @@
+.MyPart7 {
+  //   border: 1px solid;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .rowTop {
+    display: flex;
+    // border: 1px solid;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .rowTopCol {
+      display: flex;
+      width: 100%;
+      //   border: 1px solid;
+    }
+
+    .next {
+      display: flex;
+      justify-content: flex-end;
+      a {
+        color: gray;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .rowBottom {
+    display: flex;
+    // border: 1px solid;
+    width: 100%;
+    flex-direction: row;
+  }
+}

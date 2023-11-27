@@ -7,7 +7,7 @@
   color: white;
 }
 .container .col-8 .bg-body-tertiary {
-  background-color: white !important;
+  background-color: white;
 }
 .container .col-8 .bg-body-tertiary #containerFluid #navbarScroll .Nav {
   display: flex;

@@ -1,0 +1,32 @@
+.MyPart7 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.MyPart7 .rowTop {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.MyPart7 .rowTop .rowTopCol {
+  display: flex;
+  width: 100%;
+}
+.MyPart7 .rowTop .next {
+  display: flex;
+  justify-content: flex-end;
+}
+.MyPart7 .rowTop .next a {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
+}
+.MyPart7 .rowBottom {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}/*# sourceMappingURL=MyPart7.css.map */

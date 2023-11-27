@@ -1,0 +1,64 @@
+.Part7Card {
+  padding: 0;
+}
+.Part7Card .card {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+.Part7Card .card .cardImg {
+  width: 35%;
+  border-radius: 10px;
+}
+.Part7Card .card .cardImg img {
+  width: 100%;
+  border-radius: 10px;
+}
+.Part7Card .card .cardText {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 5px;
+}
+.Part7Card .card .cardText .btnCard {
+  width: 29%;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 7600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.Part7Card .card .cardText .btnCard i {
+  font-size: 10px;
+}
+.Part7Card .card .cardText h3 {
+  font-size: 23px;
+}
+.Part7Card .card .cardText .avatar {
+  display: flex;
+  flex-direction: row;
+}
+.Part7Card .card .cardText .avatar img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.Part7Card .card .cardText .avatar ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.Part7Card .card .cardText .avatar ul li {
+  color: gray;
+}
+.Part7Card .card .cardText .avatar ul li a {
+  text-decoration: none;
+  color: gray;
+}/*# sourceMappingURL=Part7Card.css.map */
